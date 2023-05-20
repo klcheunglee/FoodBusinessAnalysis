@@ -4,7 +4,6 @@
 - Course: Python - Foundations
 - Result: 60/60 (Full mark)
 
-
 # Context
 The number of restaurants in New York is increasing day by day. Lots of students and busy professionals rely on those restaurants due to their hectic lifestyles. Online food delivery service is a great option for them. It provides them with good food from their favorite restaurants. A food aggregator company FoodHub offers access to multiple restaurants through a single smartphone app.
 
@@ -17,12 +16,16 @@ The food aggregator company has stored the data of the different orders made by 
 The data contains the different data related to a food order. The detailed data dictionary is given below.
 
 # Data Dictionary
-<br>order_id: Unique ID of the order
-<br>customer_id: ID of the customer who ordered the food
-<br>restaurant_name: Name of the restaurant
-<br>cuisine_type: Cuisine ordered by the customer
-<br>cost_of_the_order: Cost of the order
-<br>day_of_the_week: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday)
-<br>rating: Rating given by the customer out of 5
-<br>food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
-<br>delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
+<br>- order_id: Unique ID of the order
+<br>- customer_id: ID of the customer who ordered the food
+<br>- restaurant_name: Name of the restaurant
+<br>- cuisine_type: Cuisine ordered by the customer
+<br>- cost_of_the_order: Cost of the order
+<br>- day_of_the_week: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday)
+<br>- rating: Rating given by the customer out of 5
+<br>- food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
+<br>- delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
+
+# Skills & Tools Covered
+- Exploratory Data Analysis (Variable Identification, Univariate analysis, Bi-Variate analysis)
+- Python (Pandas, numpy, matplotlib, seaborn)
