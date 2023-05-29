@@ -1,4 +1,4 @@
-# FoodHub Order Analysis Project 
+# Food Business Analysis Project 
 - Postgraduate Program in Data Science and Business Analytics 
 - The University of Texas at Austin, McCombs School of Business
 - Course: Python - Foundations
